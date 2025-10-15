@@ -60,7 +60,7 @@ The dataset reflects real-world risk factors for CHD in a South African populati
 ├── preprocessor.joblib                  # Saved custom Scikit-learn preprocessor
 ├── sequential_model.keras               # Saved TensorFlow Sequential model
 ├── functional_model.keras               # Saved TensorFlow Functional model
-└── [TOP_CLASSICAL_MODEL]_best_estimator.joblib  # Saved best classical ML model
+└── LogisticRegression_best_estimator.joblib  # Saved best classical ML model
 ```
 
 **Reproducibility:**
@@ -79,8 +79,8 @@ All experiments use `RANDOM_SEED = 42` for Python, NumPy, and TensorFlow to ensu
 
 ```bash
 # Clone the repository
-git clone [YOUR-GITHUB-REPO-URL]
-cd [repository-name]
+git clone https://github.com/Carine-Ashimwe/Summative-Assignment-SAHeart-Project
+cd Summative-Assignment-SAHeart-Project
 
 # Install dependencies
 pip install numpy pandas scikit-learn tensorflow matplotlib seaborn
